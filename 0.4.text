@@ -1,0 +1,12 @@
+title submit button
+
+browser -> server: HTTP POST new_note
+server --> browser: 302
+browser -> server : HTTP GET Location
+server --> browser: Location
+browser -> server : HTTP GET notes
+server  --> browser : HTML-code
+browser -> server: HTTP get mian.css
+server --> browser : main.css
+browser -> server : HTTP GET main.js
+server --> browser : main.js

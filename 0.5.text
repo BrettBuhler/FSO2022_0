@@ -1,0 +1,12 @@
+title SPA page load
+
+browser -> server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/spa
+server --> browser: text/html
+browser  -> server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/spa
+server --> browser : text/css
+browser -> server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/spa.js
+server --> browser : application/javascript
+browser -> server : HTTP GET https://studies.cs.helsinki.fi/exampleapp/data.json
+server --> browser : application/json
+browser  -> server : HTTP GET https://studies.cs.helsinki.fi/favicon.ico
+server --> browser : text/html

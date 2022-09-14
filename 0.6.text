@@ -1,0 +1,4 @@
+title SPA note
+
+browser -> server: HTTP POST note over 
+server --> browser : status code 201
